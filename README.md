@@ -16,11 +16,32 @@ I design and build production AI systems for **government and banking**: multi-a
 - **AI governance:** guardrails, PII masking, maker-checker for risky actions, tamper-evident audit, NIST AI RMF, Zero Trust
 - **LLMOps and platform:** evaluation gates, LoRA fine-tuning, OpenTelemetry tracing, Kubernetes / OpenShift, HA/DR, CI/CD
 
-### Featured open-source
+### Open-source projects
+
+**Agents, RAG and governance**
 
 | Project | What it shows |
 |---|---|
-| [**governed-rag-agent**](https://github.com/sarathalapad/governed-rag-agent) | Auditable AI agent: hybrid RAG, prompt-injection guardrails, PII masking, human approval for risky tools, hash-chained audit, CI eval gates. Zero dependencies. |
+| [**governed-rag-agent**](https://github.com/sarathalapad/governed-rag-agent) | Auditable AI agent: hybrid RAG, prompt-injection guardrails, PII masking, human approval for risky tools, hash-chained audit, CI eval gates |
+| [**multi-agent-research-crew**](https://github.com/sarathalapad/multi-agent-research-crew) | LangGraph multi-agent system: planner, parallel researchers with bounded tool use, writer, reviewer loop, human-in-the-loop interrupt |
+| [**governed-mcp-server**](https://github.com/sarathalapad/governed-mcp-server) | MCP server giving agents governed access to IT ops: policy engine, maker-checker approvals, dry-run, rate limits, lockdown, audit |
+| [**rag-eval-harness**](https://github.com/sarathalapad/rag-eval-harness) | RAG evaluation and CI regression gate: hit@k, MRR, nDCG, F1, faithfulness, citation validity, abstention, bootstrap CIs |
+
+**Cloud AI platforms**
+
+| Project | What it shows |
+|---|---|
+| [**azure-foundry-policy-agent**](https://github.com/sarathalapad/azure-foundry-policy-agent) | Azure AI Foundry: Azure OpenAI, hybrid Azure AI Search, Content Safety Prompt Shields, evaluation, managed identity, Bicep |
+| [**bedrock-aml-triage-agent**](https://github.com/sarathalapad/bedrock-aml-triage-agent) | Amazon Bedrock: AML alert triage with Converse tool use, Guardrails, Knowledge Bases, risk rules, human review, Terraform |
+| [**vertex-document-intelligence**](https://github.com/sarathalapad/vertex-document-intelligence) | Google Vertex AI Gemini: document classification, schema extraction, validation, confidence routing, EN/AR, Cloud Run |
+| [**claude-contract-review**](https://github.com/sarathalapad/claude-contract-review) | Anthropic Claude API: contract review with tool use, strict structured output, citations, prompt caching, sign-off audit |
+
+**Automation and low-code**
+
+| Project | What it shows |
+|---|---|
+| [**n8n-ai-ops-automation**](https://github.com/sarathalapad/n8n-ai-ops-automation) | n8n: AI ticket triage, PII redaction, human approval for remediation, daily digest, tested governance service |
+| [**copilot-studio-hr-agent**](https://github.com/sarathalapad/copilot-studio-hr-agent) | Microsoft Copilot Studio: HR agent for Teams, Entra ID-secured API, Power Platform custom connector, adaptive cards |
 
 ### Private work (demo on request)
 
